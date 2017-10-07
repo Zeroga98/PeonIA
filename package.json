@@ -1,0 +1,23 @@
+{
+  "name": "thehundergames",
+  "version": "1.0.0",
+  "description": "Ia peon",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeroga98/PeonIA.git"
+  },
+  "author": "zeroga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeroga98/PeonIA/issues"
+  },
+  "homepage": "https://github.com/Zeroga98/PeonIA#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
