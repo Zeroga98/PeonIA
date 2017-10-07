@@ -9,10 +9,26 @@ var instance = axios.create({
     headers: {'X-Custom-Header': 'foobar'}
   });
   
-  axios.get(url)
-  .then(function (response) {
-    console.log(response);
-  })
-  .catch(function (error) {
-    console.log(error);
-  });
+  var getTable = function(){
+    axios.get(url+'/posts/1')
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  }
+
+  var postMovend= function(){
+    axios.post(url+'/posts', {
+        /*     firstName: 'Fred',
+            lastName: 'Flintstone' */
+          })
+          .then(function (response) {
+            console.log(response);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+  }
+
